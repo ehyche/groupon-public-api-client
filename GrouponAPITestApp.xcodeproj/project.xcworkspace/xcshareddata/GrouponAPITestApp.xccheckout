@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>74CF8CCE-B088-4C19-A974-DF876218BC00</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GrouponAPITestApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>73AB56F6-0DB3-49C4-B8D2-3A0503344EFF</key>
+		<string>ssh://github.com/ehyche/groupon-public-api-client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GrouponAPITestApp/GrouponAPITestApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>73AB56F6-0DB3-49C4-B8D2-3A0503344EFF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ehyche/groupon-public-api-client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>73AB56F6-0DB3-49C4-B8D2-3A0503344EFF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>73AB56F6-0DB3-49C4-B8D2-3A0503344EFF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>groupon-public-api-client</string>
+		</dict>
+	</array>
+</dict>
+</plist>

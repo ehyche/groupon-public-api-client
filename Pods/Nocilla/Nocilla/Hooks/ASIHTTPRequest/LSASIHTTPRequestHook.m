@@ -17,12 +17,15 @@
 #pragma mark - Internal Methods
 
 - (void)swizzleASIHTTPRequest {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
     [self swizzleASIHTTPSelector:@selector(responseStatusCode) withSelector:@selector(stub_responseStatusCode)];
     [self swizzleASIHTTPSelector:@selector(responseData) withSelector:@selector(stub_responseData)];
     [self swizzleASIHTTPSelector:@selector(responseHeaders) withSelector:@selector(stub_responseHeaders)];
     [self swizzleASIHTTPSelector:@selector(startRequest) withSelector:@selector(stub_startRequest)];
     [self addMethodToASIHTTPRequest:@selector(stubResponse)];
     [self addMethodToASIHTTPRequest:@selector(setStubResponse:)];
+#pragma clang diagnostic pop
 }
 
 - (void)swizzleASIHTTPSelector:(SEL)original withSelector:(SEL)stub {

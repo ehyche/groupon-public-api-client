@@ -12,4 +12,8 @@
 
 + (GTPublicAPIClient*)sharedClient;
 
+- (void)statusWithClientId:(NSString*)clientId
+                  deviceId:(NSString*)deviceId
+                 userAgent:(NSString*)userAgent;
+
 @end

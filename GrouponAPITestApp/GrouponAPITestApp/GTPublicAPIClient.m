@@ -21,4 +21,10 @@
     return gPublicAPIClient;
 }
 
+- (void)statusWithClientId:(NSString*)clientId
+                  deviceId:(NSString*)deviceId
+                 userAgent:(NSString*)userAgent {
+    
+}
+
 @end

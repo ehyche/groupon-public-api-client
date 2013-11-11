@@ -1,4 +1,24 @@
 PODS:
+  - AFNetworking (2.0.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.0.2)
+  - AFNetworking/Security (2.0.2)
+  - AFNetworking/Serialization (2.0.2)
+  - AFNetworking/UIKit (2.0.2):
+    - AFNetworking/NSURLConnection
   - Kiwi/ARC (2.2.3)
   - Kiwi/NonARC (2.2.3)
   - Kiwi/XCTest (2.2.3):
@@ -7,10 +27,12 @@ PODS:
   - Nocilla (0.7.1)
 
 DEPENDENCIES:
+  - AFNetworking
   - Kiwi/XCTest
   - Nocilla
 
 SPEC CHECKSUMS:
+  AFNetworking: 22de50ae71ab1c4859773f61068d6fcd1d8f9a4d
   Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
   Nocilla: 79bf72b15b7e6589d3d37ffa7540d7271fb75121
 

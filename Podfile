@@ -8,6 +8,7 @@ platform :ios, '7.0'
 # Some other entries might already exist in the file
 # ...
 #
+pod 'AFNetworking'
 
 target :GrouponAPITestAppTests, :exclusive => true do
    pod 'Kiwi/XCTest'
